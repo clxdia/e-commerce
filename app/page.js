@@ -1,7 +1,13 @@
 import React from "react";
+import FilmList from "../ui/FilmList";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      hello
+      <FilmList />
+    </div>
+  );
 };
 
 export default page;
